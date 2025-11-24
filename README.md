@@ -43,3 +43,14 @@ flowchart TD
     G --> H[Assess Risks<br>(Confidentiality, Integrity, Availability)]
     H --> I[Apply Controls<br>(Access Limits, Encryption, Retention Rules)]
     I --> J[Monitor & Review<br>(Audits, Incident Reports)]
+
+---
+
+## Quick Reflection (Work in Progress)
+
+Starting these governance labs helped me understand how structured documentation reinforces every part of privacy and security decision-making. Building the DPIA flow and the ROPA entry showed me how data mapping, lawful basis selection, and risk identification connect to each other. 
+
+I can already see how this type of work aligns with the cognitive strengths highlighted in my CyberGen.ai results — especially my preference for structure, pattern recognition, and depth-focused problem solving. As I keep building these labs, I want to refine how I think about risk and controls, and explore how this governance mindset overlaps with AppSec and OT/ICS security.
+
+More reflections will be added as the labs progress.
+
