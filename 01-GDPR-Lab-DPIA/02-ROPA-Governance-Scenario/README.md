@@ -36,3 +36,77 @@ The goal of this lab is to demonstrate how different governance artifacts connec
 - Regulatory documentation  
 
 This README is a placeholder and will be expanded as the lab is developed.
+
+---
+
+# Example ROPA Entry (Completed)
+
+## Processing Activity Name
+User Account Management
+
+---
+
+## Purpose of Processing
+To allow users to create, access, and manage their accounts within the NovaPortal system, including authentication, subscription information, and basic communication functionality.
+
+---
+
+## Categories of Data Subjects
+- Customers  
+- Prospective customers who create trial accounts  
+
+---
+
+## Categories of Personal Data
+- Identification data: Name, email address  
+- Authentication data: Password hash, MFA metadata  
+- Account metadata: Signup date, subscription status  
+
+---
+
+## Data Recipients
+### Internal:
+- Engineering (system maintenance)
+- Security (monitoring and access control)
+- Customer Support (account troubleshooting)
+
+### External:
+- Cloud hosting provider (AWS/Azure)
+- Email service provider (transactional emails)
+
+---
+
+## Transfers to Third Countries
+- Yes — data may be stored or processed in the United States.
+- Safeguards:
+  - Standard Contractual Clauses (SCCs)
+  - Encryption in transit and at rest
+
+---
+
+## Retention Periods
+- Account data retained for the duration of the user’s active subscription  
+- Logs retained for 30 days  
+- Backup snapshots retained for 30 days  
+
+---
+
+## Technical and Organizational Controls
+- MFA required for login  
+- Role-based access control for staff  
+- Encrypted storage (AES-256)  
+- TLS 1.2+ for data in transit  
+- Monthly access reviews  
+- Logging and monitoring for authentication events  
+
+---
+
+## DPIA Required?
+- **Yes** — this processing activity is covered by the DPIA completed in Lab 01.
+
+---
+
+## Last Review Date
+Reviewed by: S. Smith  
+Date: Nov 2025
+
