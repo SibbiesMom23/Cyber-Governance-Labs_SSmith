@@ -30,19 +30,28 @@ The first lab walks through a simplified DPIA for a fictional web application th
 
 ### GDPR Governance Flow (High-Level)
 
-```mermaid
 flowchart TD
-    A[Data Collected<br>(User Input / System Logs)] --> B[Identify Data Category<br>(PII, Sensitive Data, Behavioral Data)]
-    B --> C[Determine Lawful Basis]
-    C -->|Consent| D[Store Consent Record]
-    C -->|Legitimate Interest| E[Conduct LI Balancing Test]
-    C -->|Contract| F[Verify Contractual Necessity]
-    D --> G[Create Processing Record (ROPA)]
-    E --> G
-    F --> G
-    G --> H[Assess Risks<br>(Confidentiality, Integrity, Availability)]
-    H --> I[Apply Controls<br>(Access Limits, Encryption, Retention Rules)]
-    I --> J[Monitor & Review<br>(Audits, Incident Reports)]
+    A["Data Collected |
+       (User Input / System Logs)"] --> B["Identify Personal Data |
+       Categories"]
+    B --> C["Determine Lawful Basis |
+       for Processing"]
+    C --> D["Data Minimization |
+       Review"]
+    D --> E["Assign Data Controller |
+       and Processor Roles"]
+    E --> F["Conduct DPIA"]
+    F --> G["Implement Technical and |
+       Organizational Controls"]
+    G --> H["Document Compliance in |
+       GDPR Registry"]
+    H --> I["Establish Retention & |
+       Deletion Schedule"]
+    I --> J["Enable Data Subject Rights |
+       (Access, Erasure, Portability)"]
+    J --> K["Ongoing Monitoring & |
+       Compliance Review"]
+
 
 ---
 
