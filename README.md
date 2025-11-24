@@ -31,26 +31,17 @@ The first lab walks through a simplified DPIA for a fictional web application th
 ### GDPR Governance Flow (High-Level)
 
 flowchart TD
-    A["Data Collected |
-       (User Input / System Logs)"] --> B["Identify Personal Data |
-       Categories"]
-    B --> C["Determine Lawful Basis |
-       for Processing"]
-    C --> D["Data Minimization |
-       Review"]
-    D --> E["Assign Data Controller |
-       and Processor Roles"]
+    A["Data Collected (User Input / System Logs)"] --> B["Identify Personal Data Categories"]
+    B --> C["Determine Lawful Basis for Processing"]
+    C --> D["Data Minimization Review"]
+    D --> E["Assign Data Controller and Processor Roles"]
     E --> F["Conduct DPIA"]
-    F --> G["Implement Technical and |
-       Organizational Controls"]
-    G --> H["Document Compliance in |
-       GDPR Registry"]
-    H --> I["Establish Retention & |
-       Deletion Schedule"]
-    I --> J["Enable Data Subject Rights |
-       (Access, Erasure, Portability)"]
-    J --> K["Ongoing Monitoring & |
-       Compliance Review"]
+    F --> G["Implement Technical and Organizational Controls"]
+    G --> H["Document Compliance in GDPR Registry"]
+    H --> I["Establish Retention and Deletion Schedule"]
+    I --> J["Enable Data Subject Rights (Access, Erasure, Portability)"]
+    J --> K["Ongoing Monitoring and Compliance Review"]
+
 
 
 ---
