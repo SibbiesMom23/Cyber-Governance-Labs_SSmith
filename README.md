@@ -45,6 +45,11 @@ A complete GDPR-specific Risk Register using likelihood × impact scoring. Inclu
 
 **➡️ [Open the GDPR Risk Register](./03-GDPR-Risk-Register.md)**
 
+### **05-CMMC-Level2-Control-Mapping.md**
+
+A cross-framework mapping exercise demonstrating how governance artifacts in this repository align with CMMC Level 2 (NIST SP 800-171) requirements. Shows control translation, risk alignment, and documentation traceability.
+
+
 ---
 
 ### **04-GDPR-Compliance-Checklist.md**
